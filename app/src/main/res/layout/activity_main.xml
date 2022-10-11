@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/foodmain"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/searchfood"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/search"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:paddingRight="30dp"
+            android:text="Search Food"
+            android:textColor="#120607"
+            android:textColorHighlight="#1A237E"
+            android:textColorHint="#0F1B91"
+            android:textColorLink="#1A237E"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/donatefood"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/donate"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:paddingRight="30dp"
+            android:text="Donate Food"
+            android:textColor="#120607"
+            android:textSize="30sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/updatefood"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/update"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:paddingRight="30dp"
+            android:text="Update Food"
+            android:textColor="#120607"
+            android:textSize="30sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/mycart"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/cart"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:paddingRight="30dp"
+            android:text="MyCarts"
+            android:textColor="#120607"
+            android:textSize="30sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/myorder"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/order"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:paddingRight="30dp"
+            android:text="My Order"
+            android:textColor="#120607"
+            android:textSize="30sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/createcity"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/city"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:paddingRight="30dp"
+            android:text="Create City"
+            android:textColor="#120607"
+            android:textSize="30sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/createplace"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/place"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:paddingRight="30dp"
+            android:text="Create Place"
+            android:textColor="#120607"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/myprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="30dp"
+            android:text="My Profile"
+            android:textColor="#120607"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
